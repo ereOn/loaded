@@ -21,8 +21,16 @@ Loaded creates a mesh of network-distributed build agents.
     ]),
     install_requires=[
         'six==1.9.0',
+        'click==5.1',
+        'colorama==0.3.3',
+        'tornado==4.2.1',
     ],
     test_suite='tests',
+    entry_points={
+        'console_scripts': [
+            'loaded = loaded.main:main_loaded',
+        ],
+    },
     classifiers=[
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
