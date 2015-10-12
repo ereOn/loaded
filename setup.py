@@ -24,6 +24,8 @@ Loaded creates a mesh of network-distributed build agents.
         'click==5.1',
         'colorama==0.3.3',
         'tornado==4.2.1',
+        'voluptuous==0.8.7',
+        'PyYAML==3.11',
     ],
     test_suite='tests',
     entry_points={
